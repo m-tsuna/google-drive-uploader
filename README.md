@@ -24,6 +24,12 @@ google-drive-uploader/
 | `credentials.json` | OAuth クライアントの鍵 | 下の「事前準備」の手順で各自作成して置く |
 | `token.json` | ログインしたときにできる許可証 | 初回ログインで自動で作られる |
 
+## 使う技術
+
+- Python 3
+- Google Drive API（ファイルをアップロード）
+- Google Cloud（OAuth 2.0 でログイン。google-api-python-client・google-auth-oauthlib）
+
 ## 必要な環境
 
 - Python 3
